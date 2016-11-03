@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.social_media_url = 'http://twitter.com/AlamofireSF'
   s.authors = { 'Alamofire Software Foundation' => 'info@alamofire.org' }
 
-  s.source = { :git => 'https://github.com/Backelite/AlamofireImage.git', :tag => s.version }
+  s.source = { :git => 'https://github.com/Backelite/AlamofireImage.git', :branch => 'fix/ios_8' }
   s.source_files = 'Source/*.swift'
 
   s.ios.deployment_target = '9.0'
